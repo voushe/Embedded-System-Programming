@@ -1,2 +1,2 @@
 # zemoora-technologies
-Introduction C/C++ programming
+Embedded system programming
