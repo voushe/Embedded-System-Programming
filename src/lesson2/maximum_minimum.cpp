@@ -4,7 +4,7 @@ int maximum(int a, int b, int c, int max = 0){//returns the maximum value betwee
     return max = b > c && b > a ? b : c > b && c > a ? c : a;//uses conditional operator
 }
 
-int minimum(int a, int b, int c, int min = 0){//returns the maximum value between a, b, c
+int minimum(int a, int b, int c, int min = 0){//returns the minimum value between a, b, c
     return min = b < c && b < a ? b : c < b && c < a ? c : a;//uses conditional operator
 }
 
