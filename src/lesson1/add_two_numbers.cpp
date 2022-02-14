@@ -1,6 +1,6 @@
 #include <iostream>
 
-auto add = [](int first_number, int second_number, int sum = 0){//lambda function
+auto add = [](int first_number, int second_number, int sum = 0){//lambda expression
     return sum = first_number + second_number;
 };
 
@@ -11,7 +11,7 @@ int main(){
     std::cin>>num1;//request user input
     std::cout<<"Please enter the second number ::";
     std::cin>>num2;//request user input
-    auto sum = add(num1, num2);//initializes sum with the return value from the lambda add function
+    auto sum = add(num1, num2);//initializes sum with the return value from the lambda add expression
     std::cout<<"Sum = "<<sum<<std::endl;
     return(0);
 }
