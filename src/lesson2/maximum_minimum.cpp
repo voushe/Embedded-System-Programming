@@ -20,8 +20,8 @@ int main(){
     std::cin>>second_number;//request user input
     std::cout<<"Please enter the third number :: ";
     std::cin>>third_number;
-    max = maximum(first_number, second_number, third_number);//calling the lambda expression
-    min = minimum(first_number, second_number, third_number);//calling the lambda expression
+    max = maximum(first_number, second_number, third_number);//calling the lambda function
+    min = minimum(first_number, second_number, third_number);//calling the lambda function
     std::cout<<"Maximum = "<<max<<std::endl;
     std::cout<<"Minimum = "<<min<<std::endl;
     return(0);
