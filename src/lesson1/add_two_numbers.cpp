@@ -1,6 +1,6 @@
 #include <iostream>
 
-auto add = [](int first_number, int second_number, int sum = 0){
+auto add = [](int first_number, int second_number, int sum = 0){//lambda expression
     return sum = first_number + second_number;
 };
 
