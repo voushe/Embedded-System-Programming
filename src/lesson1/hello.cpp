@@ -8,7 +8,7 @@ auto sayHello = [](){
 
 int main(){
     sayHello();
-    [](){
+    [](){//lambda function
         std::cout<<"Hello from lambda"<<std::endl;
     }();
     return(0);
